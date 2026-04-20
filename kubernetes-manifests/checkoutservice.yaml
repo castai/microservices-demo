@@ -52,6 +52,8 @@ spec:
             value: "currencyservice:7000"
           - name: CART_SERVICE_ADDR
             value: "cartservice:7070"
+          - name: GOMEMLIMIT
+            value: "115MiB"
           # - name: DISABLE_STATS
           #   value: "1"
           # - name: DISABLE_TRACING
